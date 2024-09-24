@@ -14,6 +14,7 @@ type Props = {
 export type GetMessagesReturnT = FunctionReturnType<
   typeof api.messages.get
 >['page']
+
 export const useGetMessages = ({
   channelId,
   conversationId,
